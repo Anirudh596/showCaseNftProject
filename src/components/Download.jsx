@@ -11,7 +11,7 @@ const Download = () => {
           </h1>
           <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on Github.</p>
         </div>
-        <button className={styles.btnPrimary}>
+        <button className={styles.btnPrimary} onClick={() => {window.open('https://github.com/Anirudh596/showCaseNftProject'), '_blank'}}>
           Source Code
         </button>
         <div className={styles.flexCenter}>
